@@ -57,6 +57,4 @@ Share: Copy or share the chat via social links
   index.js
 
 ```
-
-🧠 Powered By
 Ether AI uses the Gemini API by Google for generating context-aware, natural language responses.
