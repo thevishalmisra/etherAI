@@ -24,25 +24,29 @@
 git clone https://github.com/thevishalmisra/etherAI.git
 cd etherAI
 ```
-2. Install dependencies
-
+### 2. Install dependencies
+```
 npm install
-3. Start the development server
 
+```
+### 3. Start the development server
+```
 npm start, or 
 Visit http://localhost:3000 in your browser.
 
+```
 
 
-🔊 Voice-to-Text
+
+### 🔊 Voice-to-Text
 Ether AI includes voice input using the Web Speech API. Simply click the mic icon to speak your message.
 
-📥 Chat Download & 📤 Share
+### 📥 Chat Download & 📤 Share
 Download: Save full chat history as .txt
 
 Share: Copy or share the chat via social links
 
-🧱 Project Structure
+### 🧱 Project Structure
 bash
 Copy
 Edit
@@ -54,4 +58,4 @@ Edit
   index.js
 
 🧠 Powered By
-Ether AI uses Gemini API by Google for generating context-aware, natural language responses.
+Ether AI uses the Gemini API by Google for generating context-aware, natural language responses.
