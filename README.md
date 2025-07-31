@@ -94,5 +94,5 @@ MIT License
 
 ---
 
-**Made with ❤️ by Vishal Misra**
+**Made with ❤️ by Vishal Raman**
 
