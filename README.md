@@ -23,22 +23,16 @@
 ```bash
 git clone https://github.com/thevishalmisra/etherAI.git
 cd etherAI
+```
 2. Install dependencies
-bash
-Copy
-Edit
+
 npm install
 3. Start the development server
-bash
-Copy
-Edit
-npm start
+
+npm start, or 
 Visit http://localhost:3000 in your browser.
 
-📸 Screenshots
-Desktop View	Mobile View
 
-Place screenshots inside a screenshots folder in the root directory.
 
 🔊 Voice-to-Text
 Ether AI includes voice input using the Web Speech API. Simply click the mic icon to speak your message.
@@ -58,5 +52,6 @@ Edit
   /utils
   App.js
   index.js
+
 🧠 Powered By
 Ether AI uses Gemini API by Google for generating context-aware, natural language responses.
