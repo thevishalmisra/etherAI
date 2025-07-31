@@ -47,15 +47,16 @@ Download: Save full chat history as .txt
 Share: Copy or share the chat via social links
 
 ### 🧱 Project Structure
-bash
-Copy
-Edit
+
+```
 /src
   /components
   /assets
   /utils
   App.js
   index.js
+
+```
 
 🧠 Powered By
 Ether AI uses the Gemini API by Google for generating context-aware, natural language responses.
