@@ -10,10 +10,20 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Send, Zap, Mic, MicOff, Trash2, Moon, Sun, Share2, Download, Brain } from "lucide-react"
 import { useChat } from "ai/react"
 import { useTheme } from "next-themes"
+import { useToast } from "@/hooks/use-toast"
 
 export default function ChatBot() {
+  const { toast } = useToast()
   const { messages, input, handleInputChange, handleSubmit, isLoading, setInput, setMessages } = useChat({
     api: "/api/chat",
+    onError: (err) => {
+      console.error("Chatbot error:", err)
+      toast({
+        title: "Error",
+        description: err.message || "An error occurred while communicating with the chatbot server. Please ensure the API key is configured.",
+        variant: "destructive",
+      })
+    }
   })
 
   const { theme, setTheme, resolvedTheme } = useTheme()

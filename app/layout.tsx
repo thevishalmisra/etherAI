@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ClientOnly } from "@/components/client-only"
+import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -54,6 +55,7 @@ export default function RootLayout({
             storageKey="ether-ai-theme"
           >
             {children}
+            <Toaster />
           </ThemeProvider>
         </ClientOnly>
       </body>
